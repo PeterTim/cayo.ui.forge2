@@ -2,8 +2,11 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "composite": true,
+    "declaration": true,
+    "declarationMap": true,
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "allowImportingTsExtensions": false
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
