@@ -28,4 +28,6 @@ export const useAuth = () => {
   return { authState, login, logout };
 };
 
-export { default as AuthProvider, useAuthContext } from './AuthProvider';
+export { default as AuthProvider } from './AuthProvider';
+export { useAuthContext } from './useAuthContext';
+export type { AuthContextType } from './types';
